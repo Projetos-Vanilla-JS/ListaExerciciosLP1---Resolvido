@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+</head>
+<body>
+    <h1>Quiz Interativo</h1>
+    <div id="quiz">
+        <p>1. Qual a capital da França?</p>
+        <select id="pergunta1">
+            <option value="Berlim">Berlim</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Paris">Paris</option>
+            <option value="Lisboa">Lisboa</option>
+        </select>
+
+        <p>2. Qual o maior oceano do mundo?</p>
+        <select id="pergunta2">
+            <option value="Atlântico">Atlântico</option>
+            <option value="Pacífico">Pacífico</option>
+            <option value="Índico">Índico</option>
+            <option value="Ártico">Ártico</option>
+        </select>
+
+        <button onclick="verificarRespostas()">Verificar Respostas</button>
+    </div>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
